@@ -1,11 +1,11 @@
 body {
     background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
-    background-color: #d74bd7;
+    background-color: #f2b3f2;
 }
 
 .container {
     max-width: 960px;
-    background-color: #ff8177;
+    background-color: #e38881;
 }
 
 .pricing-header {
@@ -33,7 +33,7 @@ body {
 .b-example-divider {
     width: 100%;
     height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(65, 51, 51, 0.1);
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);

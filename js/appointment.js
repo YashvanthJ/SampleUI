@@ -21,7 +21,8 @@
         console.log("fistname", fistname.value);
         console.log("lastName", lastName.value);
         console.log("email", email.value);
-        console.log("phone", phone.value); 
+        console.log("phone", phone.value);
+        document.getElementById('appointments').reset();
        },
       false
     );
