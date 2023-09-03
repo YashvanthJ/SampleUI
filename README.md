@@ -1,1 +1,1 @@
-This is sample UI website
+Project using HTMl CSS and JS
