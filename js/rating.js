@@ -9,7 +9,7 @@
   Array.from(forms).forEach((form) => {
     form.addEventListener(
       "submit",
-      (event) => {
+      (event) => {q
         event.preventDefault();
         event.stopPropagation();
         form.classList.add("was-validated");

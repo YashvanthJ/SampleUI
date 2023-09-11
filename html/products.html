@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yash Website</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
-<body>
+<body onload="fetch_Data();">
     <!--nav bar section-->
     <nav class="navbar">
         <div class="navbar_container">
@@ -48,40 +48,13 @@
         </div>
     </nav>
 
-    <!--About Section-->
-    <div class="main about__container">
-        <div class="card-body">
-            <h1 class="card-title about-card-title">The Best Short Haircuts</h1>
-            <h2 class="card-title about-card-title_details">
-                One of the best haircuts in the illionis Area.
-                We provide wide verities of the har services
-                checkout the list of the services we provide below.
-            </h2>
-            <ul class="list-unstyled mt-3 mb-4">
-                <li> Buzz cut</li>
-                <li>Shaved head + faded sides</li>
-                <li>Short taper fade haircut</li>
-                <li>Crop fade</li>
-                <li>Short quiff haircut</li>
-                <li>Textured crop haircut</li>
-                <li>360 waves haircut</li>
-                <li>Mohawk fade</li>
-                <li>French crop haircut</li>
-                <li>Crop fade</li>
-                <li>High and tight</li>
-                <li>The King of Cool aka Steve McQueen Haircut</li>
-            </ul>
-        </div>
-        <div class="rating__container">
-            <h2>Star Rating</h2>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-        </div>
+    <!--Store Details-->
+    <div id="store_details">
+
     </div>
+
     <script src="/js/app.js"></script>
+    <script src="/js/products.js"></script>
 </body>
 
 </html>
