@@ -1,1 +1,1 @@
-Project using HTMl CSS and JS
+Hairstyles website Project using HTMl CSS and JS
